@@ -5,6 +5,7 @@ def encryption(sString):
     iCol = math.ceil(math.sqrt(len(sString)))
     return ' '.join([sString[i:: iCol] for i in range(iCol)])
 
+
 if __name__ == "__main__":
     lTestedString = [
         "haveaniceday",

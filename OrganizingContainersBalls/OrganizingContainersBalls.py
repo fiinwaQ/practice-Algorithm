@@ -13,6 +13,7 @@ def organizingContainersSecond(lContainers):
     lSumCol = [sum(lSameBall) for lSameBall in zip(*lContainers)]
     return "Impossible" if sorted(lSumRow) != sorted(lSumCol) else "Possible"
 
+
 if __name__ == "__main__":
     lTestedContainers = [
         [[1, 1], [1, 1]],
