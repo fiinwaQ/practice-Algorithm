@@ -8,6 +8,7 @@ def organizingContainersFirst(lContainers):
     else:
         return "Possible"
 
+
 def organizingContainersSecond(lContainers):
     lSumRow = [sum(lContainer) for lContainer in lContainers]
     lSumCol = [sum(lSameBall) for lSameBall in zip(*lContainers)]

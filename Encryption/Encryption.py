@@ -1,5 +1,6 @@
 import math
 
+
 def encryption(sString):
     sString = ''.join(sString.split(' '))
     iCol = math.ceil(math.sqrt(len(sString)))
